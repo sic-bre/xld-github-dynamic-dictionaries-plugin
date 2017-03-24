@@ -14,8 +14,10 @@
 
     <type type="github.DynamicDictionary" extends="dynamic.PythonDynamicDictionary">
         <property name="scriptFile" default="dict/github/load_data.py" hidden="true"/>
+        <property name="base_url" category="Github" default="https://api.github.com"/>
         <property name="username" category="Github"/>
         <property name="password" category="Github" password="true"/>
+        <property name="organization" category="Github"/>
         <property name="repository" category="Github"/>
         <property name="branch" category="Github" default="master"/>
         <property name="path" category="Github"/>
